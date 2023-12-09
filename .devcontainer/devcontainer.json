@@ -4,9 +4,9 @@
 		"dockerfile": "Dockerfile",
 		"context": "..",
 		"args": { 
-			"VARIANT": "3.12-bookworm"
+			"VARIANT": "3.12-bookworm",
 			// Options
-			// "NODE_VERSION": "lts/*"
+			"NODE_VERSION": "20"
 		}
 	},
 
